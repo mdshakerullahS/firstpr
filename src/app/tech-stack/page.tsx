@@ -30,7 +30,7 @@ export default function TechStackPage() {
     <div className="max-w-4xl mx-auto px-6 py-16">
       <h2 className="text-3xl font-bold mb-4">Engineering Overview</h2>
       <p className="text-muted-foreground mb-12">
-        OSS Match was built to showcase full-stack proficiency in handling
+        FirstPR was built to showcase full-stack proficiency in handling
         third-party APIs, complex state management, and responsive UI design.
       </p>
 

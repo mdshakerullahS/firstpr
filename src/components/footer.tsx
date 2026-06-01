@@ -16,9 +16,7 @@ export default function Footer() {
               <div className="bg-primary p-1.5 rounded text-primary-foreground shadow-sm">
                 <Github size={18} />
               </div>
-              <span className="font-bold text-lg tracking-tight">
-                OSS Match
-              </span>
+              <span className="font-bold text-lg tracking-tight">FirstPR</span>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed max-w-xs">
               A full-stack portfolio project designed to help developers find
@@ -103,7 +101,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-border/50 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-xs text-muted-foreground">
-            © {currentYear} OSS Match. Built by{" "}
+            © {currentYear} FirstPR. Built by{" "}
             <span className="text-foreground font-medium">Shakerullah</span>.
           </p>
           <p className="text-[10px] text-muted-foreground/40 italic">

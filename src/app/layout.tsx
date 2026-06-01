@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL!;
-const TITLE = "OSS Match";
+const TITLE = "FirstPR";
 const DESCRIPTION =
   "An open-source issue matcher that helps developers find relevant GitHub issues to contribute to.";
 const NAME = "Md Shakerullah Sourov";

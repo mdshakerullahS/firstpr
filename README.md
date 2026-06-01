@@ -54,7 +54,7 @@ docker compose exec app npx prisma migrate dev
 
 ```bash
 git clone [https://github.com/mdshakerullahS/oss-match.git](https://github.com/mdshakerullahS/oss-match.git)
-cd OSS_Match
+cd firstpr
 npm install
 ```
 

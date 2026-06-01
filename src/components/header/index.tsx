@@ -19,7 +19,7 @@ export default function Header() {
             <Github size={20} />
           </div>
           <h1 className="text-xl font-bold tracking-tight hidden lg:block">
-            OSS Match
+            FirstPR
           </h1>
         </Link>
 

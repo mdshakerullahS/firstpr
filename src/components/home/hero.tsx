@@ -30,7 +30,7 @@ export const Hero = () => {
         </h1>
 
         <p className="max-w-2xl mx-auto text-lg md:text-xl text-muted-foreground mb-10 leading-relaxed">
-          OSS Match connects developers with &quot;Good First Issues&quot;
+          FirstPR connects developers with &quot;Good First Issues&quot;
           tailored to their tech stack. Skip the noise and find projects that
           actually need your help.
         </p>
