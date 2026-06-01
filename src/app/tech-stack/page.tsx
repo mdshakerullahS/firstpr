@@ -73,7 +73,7 @@ export default function TechStackPage() {
             API routes, and component design on GitHub.
           </p>
           <a
-            href="https://github.com/shakerullah/oss-match"
+            href="https://github.com/shakerullah/firstpr"
             target="_blank"
             className="inline-flex items-center gap-2 px-4 py-2 bg-foreground text-background rounded-lg text-sm font-bold hover:opacity-90 transition-opacity"
           >
