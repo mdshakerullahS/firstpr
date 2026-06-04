@@ -15,8 +15,8 @@ export default function BookmarksPage() {
   const { bookmarks, isLoading, error } = useBookmarkStore();
 
   useEffect(() => {
-    if (!isAuthenticated) router.push("/api/auth/signin");
-  }, [isAuthenticated, router]);
+    if (!isAuthLoading && !isAuthenticated) router.push("/api/auth/signin");
+  }, [isAuthLoading, isAuthenticated, router]);
 
   useEffect(() => {
     if (user) getBookmarks();

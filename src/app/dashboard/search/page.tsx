@@ -12,13 +12,13 @@ const SearchIssues = dynamic(
 );
 
 export default function Home() {
-  const { isAuthenticated } = useAuth();
+  const { isAuthLoading, isAuthenticated } = useAuth();
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const router = useRouter();
 
   useEffect(() => {
-    if (!isAuthenticated) router.push("api/auth/signin");
-  }, [isAuthenticated, router]);
+    if (!isAuthLoading && !isAuthenticated) router.push("api/auth/signin");
+  }, [isAuthLoading, isAuthenticated, router]);
 
   return (
     <div className="grow max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8 relative">

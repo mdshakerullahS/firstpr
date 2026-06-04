@@ -15,8 +15,8 @@ export default function ForYouPage() {
   const { recommendations, isLoading, error } = useRecommendationStore();
 
   useEffect(() => {
-    if (!isAuthenticated) router.push("/api/auth/signin");
-  }, [isAuthenticated, router]);
+    if (!isAuthLoading && !isAuthenticated) router.push("/api/auth/signin");
+  }, [isAuthLoading, isAuthenticated, router]);
 
   useEffect(() => {
     if (user) {

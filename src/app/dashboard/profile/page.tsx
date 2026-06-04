@@ -16,8 +16,8 @@ export default function Page() {
   const { topLanguages, recentRepos, loading, error } = useProfileStore();
 
   useEffect(() => {
-    if (!isAuthenticated) router.push("/api/auth/signin");
-  }, [isAuthenticated, router]);
+    if (!isAuthLoading && !isAuthenticated) router.push("/api/auth/signin");
+  }, [isAuthLoading, isAuthenticated, router]);
 
   useEffect(() => {
     if (user) getProfile();
