@@ -1,8 +1,7 @@
 export const DATE = "\\d{4}-\\d{2}-\\d{2}";
 export const NUMBER = "\\d+";
 
-export const formatRegex =
-  /^([<>]=?)?((?:${DATE})|(?:${NUMBER}))(?:\.\.((?:${DATE})|(?:${NUMBER})))?$/;
+export const formatRegex = `^([<>]=?)?((?:${DATE})|(?:${NUMBER}))(?:\.\.((?:${DATE})|(?:${NUMBER})))?$`;
 
 export function parseDateValue(val: string): string {
   if (/^\d{4}-\d{2}-\d{2}$/.test(val)) return val;
