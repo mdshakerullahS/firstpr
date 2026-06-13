@@ -8,6 +8,21 @@ Built with Next.js, Prisma, PostgreSQL, and Upstash Redis. Focused on the "Deplo
 
 ---
 
+## Preview
+
+<details><summary>Homepage</summary>
+
+![Homepage](Homepage.png)
+
+</details>
+<details><summary>Issues</summary>
+
+![Issues](Issues_Page.png)
+
+</details>
+
+---
+
 ## Tech Stack
 
 | Layer          | Tool                         |
